@@ -1,21 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import photo from "./Frontend_Ivan_Tevrizov_CV_p.jpg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={photo} className="App-logo" alt="logo" />
+
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="Frontend_Ivan_Tevrizov_CV.pdf"
+          download="Frontend_Ivan_Tevrizov_CV"
         >
-          Learn React
+          <button className="ButtonText">Download CV</button>
         </a>
       </header>
     </div>

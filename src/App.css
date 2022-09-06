@@ -3,18 +3,15 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  max-width: 400px;
+  max-height: 516.4px;
+  border: 10px solid black;
+  border-radius: 10px;
+  transition: all 1s ease;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: aliceblue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +20,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+button {
+  margin-top: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 40px;
+  width: 200px;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: rgb(58, 52, 52);
+  border-radius: 10px;
+  border: 5px solid black;
+}
+button:hover {
+  transition: linear 250ms;
+  height: 50px;
+  width: 240px;
+}
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

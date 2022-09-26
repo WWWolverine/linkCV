@@ -1,5 +1,5 @@
 import "./App.css";
-import photo from "./Frontend_Ivan_Tevrizov_CV_p.jpg";
+import photo from "./Frontend.PNG";
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
         <img src={photo} className="App-logo" alt="logo" />
 
         <a
-          href="Frontend_Ivan_Tevrizov_CV.pdf"
-          download="Frontend_Ivan_Tevrizov_CV"
+          href="Front-end-Ivan-Tevrizov-Resume.pdf"
+          download="Front-end-Ivan-Tevrizov-Resume.pdf"
         >
           <button className="ButtonText">Download CV</button>
         </a>
